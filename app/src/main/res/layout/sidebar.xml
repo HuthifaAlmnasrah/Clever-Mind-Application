@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigation_view"
+    android:layout_gravity="start"
+    android:background="#F4F1F1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/close_menu"
+            android:src="@drawable/menu"
+            android:layout_width="75dp"
+            android:layout_height="75dp"/>
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_marginTop="50dp"
+            android:text="@string/profile"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/attended"
+            android:layout_marginTop="20dp"
+            android:text="@string/attended"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/latest_events"
+            android:layout_marginTop="20dp"
+            android:text="@string/latest_events"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/jobs"
+            android:layout_marginTop="20dp"
+            android:text="@string/jobs"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/settings"
+            android:layout_marginTop="20dp"
+            android:text="@string/settings"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/payment"
+            android:layout_marginTop="20dp"
+            android:text="@string/payment"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/policy_and_privacy"
+            android:layout_marginTop="20dp"
+            android:text="@string/policy_and_privacy"
+            android:gravity="center"
+            android:fontFamily="@font/brosh_k"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/logout"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginStart="5dp"
+                android:id="@+id/img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="@+id/txt"
+                android:src="@drawable/log_out" />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img"
+                android:fontFamily="@font/brosh_k"
+                android:text="@string/logout"
+                android:textColor="@color/purple_700"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</com.google.android.material.navigation.NavigationView>

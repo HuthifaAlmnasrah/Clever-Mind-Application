@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clever Mind POB</string>
+    <string name="policy">
+        الخصوصية والسياسة \n
+        آخر تحديث: 1/1/2019 \n
+        النظرة الواضحة والصورة العامة لتكنولوجيا المعلومات والاتصالات \n
+        لدينا \n
+        WWW.CLEVERMINDPOB.COM \n
+        هذه الصفحة تُعلمك \n
+        من سياساتنا المتعلقة بجمع واستخدام والكشف عن \n
+        المعلومات الشخصية التي تلقيناها باستخدام نموذج IVE للموقع \n
+        نحن نستخدم معلوماتك \n
+        ation فقط لتوفير الموقع وتحسينه. \n
+        باستخدام الموقع ، فإنك توافق على جمع واستخدام المعلومات وفقًا لهذه السياسة.
+        المعلومات والتجميع و \n
+        استخدم \n
+        أثناء استخدام موقعنا ، قد نطلب منك تزويدنا ببعض المعلومات بشكل شخصي \n
+        معلومات التعريف التي يمكن استخدامها للاتصال بـ R للتعرف عليك ، معلومات التعريف الشخصية \n
+        قد يتضمن ، على سبيل المثال لا الحصر ، اسمك (\"معلومات شخصية \").
+    </string>
+    <string name="chane_password">تغيير كلمة المرور</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="re_password">أعد كتابة كلمة المرور</string>
+    <string name="language">اللــغة</string>
+    <string name="feedback">مراجعــة</string>
+    <string name="send">إرســال</string>
+    <string name="settings">الإعدادات</string>
+    <string name="en">الانجليزية</string>
+    <string name="ar">العربية</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forgetpassword">نسيت كلمة المرور ؟</string>
+    <string name="dont_have_account">لا املك حساب ؟</string>
+    <string name="signup">إنشاء حساب</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="email">الايميل</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="personal_information">المعلومات الشخصية</string>
+    <string name="attended_courses_and_training_sessions">حضور الدورات والدورات التدريبية</string>
+    <string name="soon">قريباَ!</string>
+    <string name="latest_news">أخر الأخبار</string>
+    <string name="training_center">مركز التدريب</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="expiration">الصلاحية</string>
+    <string name="cvc">CVC</string>
+    <string name="save">حفظ</string>
+    <string name="inspiration_quote_for_today">اقتباس إلهام لليوم</string>
+    <string name="word_harder_proud_later">اعمل بجدية أكثر, تكون فخوراً لاحقاً</string>
+    <string name="attend_now">الحضور الآن</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="attended">تم حضورها</string>
+    <string name="latest_events">أخر الأحداث</string>
+    <string name="jobs">الوظائف</string>
+    <string name="payment">الدفع</string>
+    <string name="policy_and_privacy">السياسة والخصوصية</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="email_here">ادخل اميلك هنا</string>
+    <string name="password_here">ادخل كلمة المرور هنا</string>
+    <string name="ebable_camera_and_storage">رجاءاً السماح للوصول الى الكاميرا ومساحة التخزين</string>
+    <string name="enable_storage_permission">الرجاء السماح بالوصول الى الخزين</string>
+    <string name="fullname_here">ادخل اسمك الكامل هنا</string>
+    <string name="username_here">ادخل اسم المستخدم هنا</string>
+    <string name="phone_here">ادخل رقم هاتفك</string>
+    <string name="date_here">ادخل تاريخ ميلادك</string>
+    <string name="your_message_sent">تم إرسال رسالتك</string>
+    <string name="join_now">الانضمام الآن!</string>
+    <string name="price">السعر : </string>
+    <string name="txtpublic">عام</string>
+    <string name="txtprivate">خاص</string>
+    <string name="course_information">معلومات الدورة</string>
+    <string name="edit">تعديل</string>
+    <string name="notification">الإشعارات</string>
+    <string name="rate_us">قيمنا</string>
+    <string name="send_new_password">إرسال كلمة مرور جديدة</string>
+    <string name="send_new_pass">تفقد بريدك الإلكتروني لقد ارسلنا كلمة مرورك الجديدة</string>
+</resources>

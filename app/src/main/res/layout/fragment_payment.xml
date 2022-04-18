@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PaymentFragment">
+
+    <include layout="@layout/main_toolbar"/>
+
+    <ImageView
+        android:id="@+id/payment"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/credit_card"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/atm_card" />
+
+        <TextView
+            android:id="@+id/card_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/brosh_k"
+            android:text="@string/card_number"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/edt_card_number"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/card_number"
+            android:background="@drawable/fileds_background"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/expration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_number"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/brosh_k"
+            android:text="@string/expiration"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/edt_exp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_number"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/expration"
+            android:background="@drawable/fileds_background"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/cvc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_number"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_toEndOf="@+id/edt_exp"
+            android:fontFamily="@font/brosh_k"
+            android:text="@string/cvc"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/edt_cvc"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_number"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/cvc"
+            android:background="@drawable/fileds_background"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_exp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/save"
+            android:textColor="@color/purple_700" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

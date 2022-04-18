@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Clever Mind POB</string>
+    <string name="drawer_open" translatable="false">open</string>
+    <string name="drawer_close" translatable="false">close</string>
+
+    <string name="policy">
+        PRIVACY AND POLICY \n
+        LAST UPDATE: 1/1/2019 \n
+        CLEVER MIND POB ICT \n
+        OUR \n
+        WWW.CLEVERMINDPOB.COM \n
+        THIS PAGE INFORMS YOU \n
+        of our policies regarding the collection, use and disclosure of \n
+        personal information we rece IVE form usesof the site \n
+        we use your information \n
+        ation only for providing and improving the site.\n
+        bt using the site, you agree to the collection and use of information in accordance with this policy.
+        information and collection and \n
+        use\n
+        while using our site, we may ask you to provide us with certain personally\n
+        identifiable information that can be used to contact to R identify you, personally identifiable information \n
+        may includes, but is not limited to your name(\"personal information\").
+    </string>
+    <string name="chane_password">CHANE PASSWORD</string>
+    <string name="old_password">OLD PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="re_password">RE-PASSWORD</string>
+    <string name="language">LANGUAGE</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="send">send</string>
+    <string name="settings">SETTINGS</string>
+    <string name="en">EN</string>
+    <string name="ar">AR</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgetpassword">FORGETPASSWORD?</string>
+    <string name="dont_have_account">DONT HAVE ACCOUNT?</string>
+    <string name="signup">SIGNUP</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="user_name">USER NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="date_of_birth">DATE OF BIRTH</string>
+    <string name="personal_information">PERSONAL INFORMATION</string>
+    <string name="attended_courses_and_training_sessions">attended courses and training sessions</string>
+    <string name="soon">SOON!</string>
+    <string name="latest_news">LATEST NEWS</string>
+    <string name="training_center">TRAINING CENTER</string>
+    <string name="card_number">card Number</string>
+    <string name="expiration">expiration</string>
+    <string name="cvc">CVC</string>
+    <string name="save">save</string>
+    <string name="inspiration_quote_for_today">INSPIRATION QUOTE FOR TODAY</string>
+    <string name="word_harder_proud_later">WORD HARDER, PROUD LATER</string>
+    <string name="attend_now">attend now!</string>
+    <string name="profile">PROFILE</string>
+    <string name="attended">ATTENDED</string>
+    <string name="latest_events">LATEST EVENTS</string>
+    <string name="jobs">JOBS</string>
+    <string name="payment">PAYMENT</string>
+    <string name="policy_and_privacy">POLICY AND PRIVACY</string>
+    <string name="logout">LOGOUT</string>
+    <string name="email_here">Enter Your Email Here</string>
+    <string name="password_here">Enter Your Password Here</string>
+    <string name="ebable_camera_and_storage">Please enable camera and storage permission</string>
+    <string name="enable_storage_permission">Please enable storage permission</string>
+    <string name="fullname_here">Enter Your Full Name</string>
+    <string name="username_here">Enter Your User Name Here</string>
+    <string name="phone_here">Enter Your Phone Number Here</string>
+    <string name="date_here">Enter Your Date Birth Here</string>
+    <string name="your_message_sent">Your Message Sent</string>
+    <string name="join_now">JOIN NOW!</string>
+    <string name="price">price :</string>
+    <string name="txtpublic">public</string>
+    <string name="txtprivate">private</string>
+    <string name="course_information">COURSE INFORMATION</string>
+    <string name="edit">Edit</string>
+    <string name="notification">notifications</string>
+    <string name="rate_us">RATE US</string>
+    <string name="send_new_password">SEND NEW PASSWORD</string>
+    <string name="send_new_pass">Check Your Email We Sent Your New Password</string>
+</resources>

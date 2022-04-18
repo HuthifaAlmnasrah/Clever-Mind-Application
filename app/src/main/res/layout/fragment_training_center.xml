@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TrainingCenterFragment">
+
+    <include layout="@layout/main_toolbar"/>
+
+    <ImageView
+        android:layout_marginStart="10dp"
+        android:id="@+id/expand"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintStart_toStartOf="@+id/scroll"
+        app:layout_constraintTop_toTopOf="@+id/scroll"
+        android:elevation="1dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/down"
+        />
+
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:id="@+id/scroll"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/fileds_background">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_below="@+id/field"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/android" />
+
+                <TextView
+                    android:id="@+id/field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@+id/image"
+                    android:fontFamily="@font/brosh_k"
+                    android:text="android full track development"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/field"
+                    android:layout_alignStart="@+id/field"
+                    android:layout_alignEnd="@+id/field"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/brosh_k"
+                    android:gravity="center"
+                    android:text="sun-thu"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/days"
+                    android:layout_alignStart="@+id/days"
+                    android:layout_alignEnd="@+id/days"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/brosh_k"
+                    android:gravity="center"
+                    android:text="10:00AM-1:00PM"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/course_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time"
+                    android:layout_alignStart="@+id/time"
+                    android:layout_alignEnd="@+id/time"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/brosh_k"
+                    android:gravity="center"
+                    android:text="@string/course_information"
+                    android:textColor="@color/purple_500"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/course_info"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/brosh_k"
+                    android:gravity="center_horizontal"
+                    android:text="advanced android devlopment
+ in the advanced android devlopment training, youtake your android coding skils to the next level the course teaches you ways to expand the user experience, improve your apps performance, and add advanced features like custom vies, animations, and location-awareness. each lesson includes a tutorial with solution code in github, concept documentation, and a sude deck."
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/more"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/desc"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/more" />
+
+                <ImageView
+                    android:id="@+id/dollar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/more"
+                    android:layout_toEndOf="@+id/more"
+                    android:src="@drawable/dollar_symbol" />
+
+                <TextView
+                    android:id="@+id/pric1e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/more"
+                    android:layout_toEndOf="@+id/dollar"
+                    android:fontFamily="@font/brosh_k"
+                    android:text="@string/price"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/more"
+                    android:layout_toEndOf="@+id/pric1e"
+                    android:fontFamily="@font/brosh_k"
+                    android:text="150JD"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/pric1e"
+                    android:layout_marginTop="20dp"
+                    android:layout_toStartOf="@+id/pric1e"
+                    android:src="@drawable/dot_blue" />
+
+                <TextView
+                    android:id="@+id/txt_public"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/price"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@+id/img1"
+                    android:fontFamily="@font/brosh_k"
+                    android:text="@string/txtpublic"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/price"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@+id/txt_public"
+                    android:src="@drawable/dot_selver" />
+
+                <TextView
+                    android:id="@+id/txt_private"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/price"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_toEndOf="@+id/img2"
+                    android:fontFamily="@font/brosh_k"
+                    android:text="@string/txtprivate"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_attend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/attend_now"
+                android:textColor="@color/purple_700"
+                app:layout_constraintEnd_toEndOf="@+id/relative"
+                app:layout_constraintStart_toStartOf="@+id/relative"
+                app:layout_constraintTop_toBottomOf="@+id/relative" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

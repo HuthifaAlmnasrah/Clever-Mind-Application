@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/linear"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/linear"
+        app:layout_constraintTop_toTopOf="@+id/linear"
+        android:src="@drawable/google"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fileds_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brosh_k"
+            android:gravity="center"
+            android:text="Google"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/short_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brosh_k"
+            android:gravity="center"
+            android:text="LAST UPDATES OF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/long_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brosh_k"
+            android:gravity="center"
+            android:text="developments\nwhat is mobiledom and google mobile farendal y update \n on april 21, 2015, google relased"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

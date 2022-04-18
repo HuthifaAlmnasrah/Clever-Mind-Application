@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.LatestEventsFragment">
+
+    <include layout="@layout/main_toolbar" android:id="@+id/toolbar"/>
+
+    <ImageView
+        android:elevation="10dp"
+        android:layout_marginEnd="25dp"
+        android:id="@+id/rigth"
+        android:layout_alignBottom="@+id/view_pager"
+        android:layout_alignEnd="@+id/view_pager"
+        android:layout_alignTop="@+id/view_pager"
+        android:src="@drawable/right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <ImageView
+        android:elevation="10dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/left"
+        android:layout_alignBottom="@+id/view_pager"
+        android:layout_alignStart="@+id/view_pager"
+        android:layout_alignTop="@+id/view_pager"
+        android:src="@drawable/left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:paddingStart="55dp"
+        android:paddingEnd="55dp" />
+
+    <TextView
+        android:id="@+id/soon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_pager"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/brosh_k"
+        android:gravity="center"
+        android:text="@string/soon"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soon" />
+
+</RelativeLayout>
